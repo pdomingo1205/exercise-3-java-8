@@ -76,7 +76,7 @@ public class HorseRace{
 	}
 
 	public Horse run(Horse horse, int max){
-		int tempSpeed = console.randomNumber(1, max - 1);
+		int tempSpeed = console.randomNumber(2, max - 1);
 
 		horse.setSpeed(tempSpeed);
 		horse.setDistanceTravelled(horse.getDistanceTravelled() + tempSpeed);
